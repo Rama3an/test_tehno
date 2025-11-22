@@ -5,7 +5,12 @@
 1. docker-compose up --build
 2. alembic revision --autogenerate -m "auto"
 3. alembic upgrade head
-4. (нужно добавть .env файл и прописать два пути к бд async и sync)
+
+Так же
+нужно добавть .env файл и прописать два пути к бд async и sync
+DATABASE_URL=postgresql+asyncpg://user:pass@db:5432/calc_db
+DATABASE_URL_ALEMBIC=postgresql+psycopg2://user:pass@db:5432/calc_db
+
 
 # 
 Api сервиса:
