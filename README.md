@@ -7,7 +7,7 @@
 3. alembic upgrade head
 
 Так же
-нужно добавть .env файл и прописать два пути к бд async и sync
+нужно добавть .env файл в корень проекта и прописать два пути к бд async и sync
 DATABASE_URL=postgresql+asyncpg://user:pass@db:5432/calc_db
 DATABASE_URL_ALEMBIC=postgresql+psycopg2://user:pass@db:5432/calc_db
 
