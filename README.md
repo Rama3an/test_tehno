@@ -5,6 +5,7 @@
 1. docker-compose up --build
 2. alembic revision --autogenerate -m "auto"
 3. alembic upgrade head
+4. (нужно добавть .env файл и прописать два пути к бд async и sync)
 
 # 
 Api сервиса:
